@@ -1,0 +1,112 @@
+.all{
+  background-image: url("https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/322180316_678256547331036_3306225294239846319_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFlDWUzKARLRGeSqNxkW6B3ur98HlSypku6v3weVLKmSwvzR7m5_SVuDwT9pe5CWdhUpxPxjZQuU4mxkA4EDnQo&_nc_ohc=nnJPQgK3r78AX9c-UA8&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfCriXlJZS3sKPyzlTe-mz-H1yQrHN-5HnJ-ncG8OG1XyQ&oe=63F5EE16");
+  background-size:
+}
+
+h1{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+.neuron:hover .item1{
+  transform: rotate(45deg);
+  transform: scale(1.5);
+  transform: translateX(-100%);
+}
+
+.neuron:hover .item2{
+  transform: rotate(45deg);
+  transform: scale(1.5);
+}
+
+.neuron:hover .item3{
+  transform: rotate(45deg);
+  transform: scale(1.5);
+  transform: translateX(100%);
+}
+
+h2{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: red;
+  background: orange;
+}
+
+.neuron{
+  display: flex;
+  background-color: #1B9AAA;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+
+.item1 {
+  transition: 1s ease-in-out;
+  height: 10svh;
+  background-color: red;
+  width: 20px;
+  border-color: blue;
+  border: 1vh solid;
+  border-radius: 100px;
+}
+
+.item2 {
+  transition: 1s ease-in-out;
+  text-align: center;
+  height: 10svh;
+  background-color: orange;
+  width: 40px;
+  border-color: green;
+  border: 1vh solid;
+}
+
+
+.item3 {
+  transition: 1s ease-in-out;
+  height: 10svh;
+  background-color: orange;
+  width: 20px;
+  border-color: green;
+  border: 1vh solid;
+}
+
+
+{
+  transform: rotate(xdeg)
+  transform: scale(x)
+  transform: translate(x%)
+}
+
+body::-webkit-scrollbar{
+  width: 100px;
+}
+
+body::-webkit-scrollbar-track{
+  background:red;
+  margin-block: 10px;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: blue;
+  border-radius: 100vw;
+  border: 10px solid;
+  border-color: blueviolet;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: rgb(32, 32, 112);
+  border-radius: 100vw;
+}
+
+.overflow{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

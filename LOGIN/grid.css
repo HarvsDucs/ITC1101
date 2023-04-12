@@ -1,0 +1,137 @@
+.grid_container{
+    align-content: center;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(4,100px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 100%;
+}
+.grid1{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid9{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid17{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid25{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid10{
+    height: 100px;
+    transform: rotate(-90deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid18{
+    height: 100px;
+    transform: rotate(-90deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid26{
+    height: 100px;
+    transform: rotate(225deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid2{
+    height: 100px;
+    transform: rotate(-45deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid11{
+    padding-top: 40px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.grid19{
+    padding-top: 40px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.grid14{
+    padding-top: 40px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.grid22{
+    padding-top: 40px;
+    background-color: orange;
+    border-radius: 100%;
+}
+.grid7{
+    height: 100px;
+    transform: rotate(45deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid15{
+    height: 100px;
+    transform: rotate(90deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid23{
+    height: 100px;
+    transform: rotate(90deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid31{
+    height: 100px;
+    transform: rotate(135deg);
+    margin: auto;
+    background-color: red;
+    width: 10px;
+}
+.grid8{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid16{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid24{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.grid32{
+    padding-top: 40px;
+    background-color: blue;
+    border-radius: 100%;
+}
